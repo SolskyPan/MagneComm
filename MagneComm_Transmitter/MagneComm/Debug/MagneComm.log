@@ -1,0 +1,17 @@
+﻿  MagneComm.cpp
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(123,23): warning C4018: '<': signed/unsigned mismatch
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(132,23): warning C4018: '<': signed/unsigned mismatch
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(139,23): warning C4018: '<': signed/unsigned mismatch
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(194,27): warning C4018: '<': signed/unsigned mismatch
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(390,58): warning C4244: '=': conversion from 'double' to 'DWORD', possible loss of data
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(368,31): warning C4101: 'high_speed_thread_data': unreferenced local variable
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(379,40): warning C4101: 'time_diff': unreferenced local variable
+E:\MagneComm+\MagneComm_Transmitter\MagneComm\MagneComm.cpp(441,22): warning C4101: 'qtime2': unreferenced local variable
+  main.cpp
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  Generating Code...
+  MagneComm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+MagneComm.obj : warning LNK4248: unresolved typeref token (0100001C) for 'pthread_barrier_t_'; image may not run
+MagneComm.obj : warning LNK4248: unresolved typeref token (01000023) for 'pthread_attr_t_'; image may not run
+MagneComm.obj : warning LNK4248: unresolved typeref token (01000024) for 'pthread_barrierattr_t_'; image may not run
+  MagneComm.vcxproj -> E:\MagneComm+\MagneComm_Transmitter\Debug\MagneComm.exe

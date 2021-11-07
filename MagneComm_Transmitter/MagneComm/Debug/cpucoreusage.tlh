@@ -1,0 +1,75 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.29.30038.1 (82bdb974).
+//
+// E:\MagneComm+\MagneComm_Transmitter\MagneComm\Debug\cpucoreusage.tlh
+//
+// C++ source equivalent of Win32 type library ..\csharpDll\CPUCoreUsage.tlb
+// compiler-generated file created 11/07/21 at 10:39:31 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace CPUCoreUsage {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("1096012a-747f-4424-ae7e-d81fea28ebe8"))
+/* LIBID */ __CPUCoreUsage;
+struct __declspec(uuid("72357def-6f00-3702-a0c3-d389e6b464d3"))
+/* dual interface */ CPUUsageInterface;
+struct /* coclass */ Class1;
+struct __declspec(uuid("3c5fb45c-b801-38a8-ab7f-da57f4e0175c"))
+/* dual interface */ _Class1;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(CPUUsageInterface, __uuidof(CPUUsageInterface));
+_COM_SMARTPTR_TYPEDEF(_Class1, __uuidof(_Class1));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("72357def-6f00-3702-a0c3-d389e6b464d3"))
+CPUUsageInterface : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Add (
+        /*[in]*/ long Number1,
+        /*[in]*/ long Number2,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall Times (
+        /*[in]*/ long Number1,
+        /*[in]*/ long Number2,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall Initialize (
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetCPUCoreNumber (
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetCPUEveryCoreUseRateString (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall GetCPUEveryCoreUseRateFloat (
+        /*[in,out]*/ double * resultRate ) = 0;
+};
+
+struct __declspec(uuid("cf9287e9-2755-31af-9a33-77274953df1a"))
+Class1;
+    // [ default ] interface _Class1
+    // interface _Object
+    // interface CPUUsageInterface
+
+struct __declspec(uuid("3c5fb45c-b801-38a8-ab7f-da57f4e0175c"))
+_Class1 : IDispatch
+{};
+
+} // namespace CPUCoreUsage
+
+#pragma pack(pop)
