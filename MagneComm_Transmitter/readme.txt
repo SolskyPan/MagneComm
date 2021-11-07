@@ -1,0 +1,1 @@
+add cpu modulation method
