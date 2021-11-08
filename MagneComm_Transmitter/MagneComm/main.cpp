@@ -17,7 +17,7 @@ int main() {
 
 	char data_name[1024], data_highspeed_name[1024], file_format[1024];
 	sprintf_s(data_name, "%s", "Tx1");
-	sprintf_s(data_highspeed_name, "%s", "Tx_highspeed_example");
+	sprintf_s(data_highspeed_name, "%s", "Tx_highspeed_bitstream");
 	sprintf_s(file_format, "%s", "txt");
 
 	char data_fullpath[1024], data_highspeed_fullpath[1024];
