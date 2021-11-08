@@ -1,0 +1,2 @@
+IEEE TMC (Transactions on Mobile Computing) focuses on architectures, support services, algorithm/protocol design and analysis, mobile environments, mobile communication systems, applications, and emerging technologies. 
+Topics of interest include, but are not limited to, the following: (a) Architectures: Mobile networks and hosts, Agents and proxies, Mobility manage
